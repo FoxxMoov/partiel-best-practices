@@ -15,7 +15,7 @@ function App() {
         </p>
         <p>
           <strong>Also</strong>, the image bellow is at the right size and
-          format (png)
+          format (webp)
         </p>
         <img
           style={{ width: '100%' }}
