@@ -1,23 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className='App'>
+      <header className='App-header'>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          This app is made with <strong>GOOD</strong> practices and is quite{' '}
+          <strong>FAST</strong> to load
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          There is not a single linked CSS and jQuery in the header so the page
+          is not slowed down
+        </p>
+        <p>
+          <strong>Also</strong>, the image bellow is at the right size and
+          format (png)
+        </p>
+        <img
+          style={{ width: '100%' }}
+          src='https://i.ibb.co/wMkHfSj/rsz-1bad-image.png'
+          alt='img'
+        />
       </header>
     </div>
   );
