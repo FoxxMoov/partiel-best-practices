@@ -19,7 +19,7 @@ function App() {
         </p>
         <img
           style={{ width: '100%' }}
-          src='https://i.ibb.co/wMkHfSj/rsz-1bad-image.png'
+          src='https://i.ibb.co/w7HxhZG/good-image.webp'
           alt='img'
         />
       </header>
